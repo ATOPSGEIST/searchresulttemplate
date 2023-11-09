@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script type="text/javascript" src="/config/servicing.js"></script>
+    <link rel="stylesheet" type="text/css" href="/csm/style.css">
+    <script type="text/javascript" async src="/csm/loader.js"></script>
+    <title>Search Results - Powered by Google</title>
+    <style>
+              .on {
+    color: #4285f4; /* Google blue color for the current page */
+    text-decoration: underline;
+}
+        body {
+          .copyright {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 14px;
+    color: #000000; /* Gray color */
+}
+                 .results-count {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 14px;
+    color: #6F6F6F; /* Gray color */
+}
+            margin: 0;
+            background-color: #ffffff; /* Set the background color */
+          text-align: left;
+          .about {
+            font-size: 12px;
+            color: #1a0dab;
+        }
+          .help {
+            font-size: 10px;
+            color: #1a0dab;
+        }
+        .gsc-adBlock {
+            display: none!important;
+        }
+        /* ...other styles... */
+        /* Style for the separating line */
+        .separator {
+            margin-top: 20px;
+            border-top: 1px solid #e9e9e9;
+          
+        }
+      .separator2 {
+            margin-top: 20px;
+            border-top: 2px solid #e9e9e9;
+        margin-left: -20px
+        }
+        .search-result {
+            margin: 10px 0;
+            padding: 10px;
+        }
+        .search-result-title {
+            font-size: 18px;
+            color: #1a0dab;
+        }
+        }
+        .search-result-description {
+            color: #545454;
+        }
+        .search-result-url {
+            color: #006621;
+        }
+      .search-button {
+            background-color: #4285f4; /* Google blue color */
+            border: none;
+            color: white;
+            padding: 10px;
+            margin-left: -5px; /* Adjust as needed to align with search box */
+            cursor: pointer;
+            font-size: 16px;
+        }
+        
+        /* Ensure the search input and button are aligned */
+        .search-box-1998-classic input[type="text"] {
+            height: 38px; /* Match the height of your button if necessary */
+            margin-bottom: 0; /* Adjust as necessary */
+        }
+
+        /* Style for magnifying glass icon */
+        .magnify-glass-icon {
+            margin-right: 5px;
+        }
+      /* Styles for pagination */
+        .pagination a {
+            color: #6F6F6F; /* Gray color for page numbers */
+            text-decoration: none;
+            margin: -15px; /* Spacing between page numbers */
+            margin-left: 20px
+        }
+        .pagination a:hover,
+        .pagination a:focus {
+            color: #4285f4; /* Light blue color on hover */
+            text-decoration: underline;
+        }
+        /* Include other styles from your original CSS here */
+    </style>
+</head>
+<body>
+    <div id="main" style="padding: 20px;">
+        <table cellpadding="0" cellspacing="0" width="100%">
+            <tbody>
+                <tr>
+                    <td valign="top" class="search-logo-1998-classic">
+                        <a href="/1998/"><img src="/google1998search.jpg" alt="Google" border="0" height="78"></a>
+                    </td>
+                    <td width="5">&nbsp;</td>
+                    <td align="left" class="search-box-1998-classic">
+                        <!-- Static search box -->
+                        <form action="/search-results-page.html" method="get">
+                            <input type="text" name="query" size="40">
+                           <input type="submit" value="SEARCH" style="background-color: #4285f4; border: 2px solid #4285f4; color: white; padding: 8px 20px; height: 44px; cursor: pointer;">
+                        </form>
+                    </td>
+                </tr>
+            </tbody>
+          <div id="main" style="padding: 20px;">
+        <table cellpadding="0" cellspacing="0" width="100%">
+        </table>
+      
+
+        <!-- Separator line -->
+        <div class="separator"></div> 
+            <div class="results-count">
+            About 123 results (0.45 seconds)
+        </div>
+            
+
+        <!-- Static Search Result 1 -->
+        <div class="search-result">
+            <h2 class="search-result-title"><a href="http://your-custom-link.com">Your Custom Title 1</a></h2>
+            <p class="search-result-url">http://your-custom- aink.com</p>
+            <p class="search-result-description">This is a description for your custom link 1. Replace this text with your content.</p>
+        </div>
+
+        <!-- Static Search Result 2 -->
+        <div class="search-result">
+            <h2 class="search-result-title"><a href="http://your-second-link.com">Your Custom Title 2</a></h2>
+            <p class="search-result-url">http://your-second-link.com</p>
+            <p class="search-result-description">This is a description for your custom link 2. Replace this text with your content.</p>
+        </div>
+
+        <!-- Add more static search results as needed... -->
+              
+    </div>
+              <div class="pagination">
+            <a href="/search-results-page.html?page=1" class=".on">1</a>
+            <a href="/search-results-page.html?page=2">2</a>
+            <!-- Add more page links as needed -->
+        </div>
+                <div class="separator2"></div> 
+    <!-- Add links or buttons for navigating between pages if needed -->
+          <div class="copyright">
+            Copyright &copy2001 Dognaping Pietist <h2 class="about"><a href="http://your-second-link.com">about</a></h2>
+            <h2 class="help"><a href="http://your-second-link.com">help</a></h2>
+        </div>
+</div>
+</body>
+</html>
